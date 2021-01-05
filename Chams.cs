@@ -57,7 +57,7 @@ public class Chams : global::UnityEngine.MonoBehaviour
 			global::Chams.skins = (global::UnityEngine.Object.FindObjectsOfType(typeof(global::UnityEngine.SkinnedMeshRenderer)) as global::UnityEngine.SkinnedMeshRenderer[]);
 			global::Chams.Updateskins = global::UnityEngine.Time.time + 1f;
 		}
-		if (global::Chams.Cham && global::Vars.skins != null)
+		if (global::Chams.Cham && global::Chams.skins != null)
 		{
 			foreach (global::UnityEngine.SkinnedMeshRenderer skinnedMeshRenderer in global::Chams.skins)
 			{
